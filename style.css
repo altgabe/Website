@@ -1,0 +1,105 @@
+nav {
+    background-color: rgb(209, 64, 64);
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+    padding: 15px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.Title,
+.Links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+body {
+    margin: 11px;
+}
+.main {
+    display: flex;
+    background-color: rgb(2, 3, 3);
+    margin: 10px;
+}
+.top {
+    width: 50%;
+    background-color: rgb(192, 90, 90);
+    margin: 5px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}  
+.left-box {
+    background-color: rgb(201, 128, 128);;
+    height: 300px;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}  
+.left-inside {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}  
+.left-inside > h1 {
+    margin: 20px;
+}  
+.left-box > h1,
+.right-box > h1 {
+    margin: 20px;
+}
+.bottombox {
+    width: 100%;
+    background-color: rgb(192, 90, 90);
+    margin: 5px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.bottombox2 {
+    width: 100%;
+    background-color: rgb(192, 90, 90);
+    margin: 5px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.bottombox3 {
+    width: 100%;
+    background-color: rgb(192, 90, 90);
+    margin: 5px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
